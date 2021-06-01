@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background: url(./images/black3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*opacity: 0.7;*/
+}
+body {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(155, 155, 155, 0.35);
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.logo {
+  position: relative;
+  display: block;
+  height: 600px;
+  width: 100%;
+  top: -235px;
+}
+.video {
+  margin: 0;
+  width: 90%;
+  height: 350px;
+  max-width: 700px;
+  max-height: 350px;
+  margin: auto;
+}
+.links {
+  padding: 0;
+  width: 90%;
+  height: 80px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.links a {
+  position: relative;
+  font-size: 50px;
+  top: 10px;
+  margin: 20px;
+  color: white;
+}
+.button {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.stream {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  color: black;
+  background-color: rgba(233, 11, 11, 0.8);
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
+.embed {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 300px;
+  padding: 15px;
+}
+
+.message {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+footer {
+  line-height: 100px;
+  vertical-align: middle;
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}

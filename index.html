@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./style.css' rel='stylesheet'>
+    <link href='./staticaccess/css/all.css' rel='stylesheet'>
+    <title>CivDays</title>
+</head>
+<body onload='myFunction()'>
+    <header>
+        <div class='overlay'>
+            <img src='./images/Civ Days_horz_white.svg' class='logo'>
+        </div>
+    </header>
+
+
+    <div class='links'>
+        <a href='https://www.instagram.com/civdays/?hl=en' target="_blank" alt='instgram'>
+            <i class="fab fa-instagram"></i></a>
+        <a href='https://www.facebook.com/CivDays/' target="_blank" alt='facebook'>
+            <i class="fab fa-facebook"></i></a>
+        <a href='https://open.spotify.com/album/0rtC3oDWysUUH0tr06EyhE?highlight=spotify:track:0eWDhY715ncPgK5x2jJ5jK'
+            target="_blank" alt='spotify'>
+            <i class="fab fa-spotify"></i></a>
+        <a href='https://www.youtube.com/watch?v=jLArMGae7-Q' target="_blank" alt='yogutube'>
+            <i class='fab fa-youtube'></i></a>
+        <a href='https://civilizationdays.bandcamp.com/releases' target='_blank' alt='bandcamp'>
+            <i class='fab fa-bandcamp'></i></a>
+    </div>
+
+
+    <div class='video'>
+        <video id='myVideo' height='100%' width='100%' autoplay muted id='video'>
+            <source src="./images/intro.mp4" type='video/mp4'>
+        </video>
+    </div>
+    <script>
+        function myFunction() {
+            window.setTimeout(() => {
+                const video = document.getElementById('myVideo');
+                video.pause()
+            }, 6300)
+        }
+    </script>
+
+    <div class="button">
+        <button class='stream'>Stream Now</button>
+    </div>
+
+    <!--
+    <div class='embed'>
+        <iframe src="https://open.spotify.com/embed/artist/6KtWCY6aJHcIEqXscChqrJ" width="300" height="140" frameborder="0"
+            allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+-->
+    <div class='message'>
+        <p> Civilization Days, stream on all platforms now.</p>
+    </div>
+
+    <footer>
+        <p>&#169;Civilizationdays, 2021</p>
+    </footer>
+</body>
+</html>
