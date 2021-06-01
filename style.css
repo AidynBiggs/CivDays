@@ -57,7 +57,7 @@ header {
   max-width: 700px;
   max-height: 380px;
   margin: 0 auto;
-  z-index: 9999;
+  z-index: -1;
 }
 .myvideo {
   z-index: 9999;
@@ -67,7 +67,7 @@ header {
   .video {
     width: 91%;
     margin: auto;
-    z-index: 9999;
+    z-index: -1;
   }
   .links a {
     font-size: 40px;
