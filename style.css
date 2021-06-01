@@ -45,7 +45,9 @@ header {
 @media screen and (max-width: 500px) {
   .video {
     width: 90%;
-    height: 200px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid white;
   }
 }
 #myvideo {
