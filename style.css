@@ -45,7 +45,7 @@ header {
 @media screen and (max-width: 500px) {
   .video {
     width: 90%;
-    height: 100px;
+    height: 250px;
     margin: auto;
     border: 1px solid white;
   }
@@ -62,9 +62,11 @@ header {
   max-width: 700px;
   margin: auto;
   text-align: center;
+  border: 1px solid white;
 }
 .links a {
   position: relative;
+  display: inline-block;
   font-size: 50px;
   top: 10px;
   margin: 20px;
