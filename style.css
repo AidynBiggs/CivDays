@@ -38,9 +38,20 @@ header {
   margin: 0;
   width: 90%;
   height: 350px;
-  max-width: 700px;
-  max-height: 350px;
+  max-width: 720px;
   margin: auto;
+  border: 1px solid white;
+}
+@media screen and (max-width: 600px) {
+  .video {
+    width: 90%;
+    height: 300px;
+  }
+}
+#myvideo {
+  position: relative;
+  width: 720px;
+  height: 406px;
 }
 .links {
   padding: 0;
@@ -56,6 +67,9 @@ header {
   top: 10px;
   margin: 20px;
   color: white;
+}
+.links a:hover {
+  color: rgb(165, 8, 8);
 }
 .button {
   position: relative;
@@ -93,7 +107,6 @@ header {
 }
 
 footer {
-  line-height: 100px;
   vertical-align: middle;
   margin-top: 40px;
   width: 100%;
