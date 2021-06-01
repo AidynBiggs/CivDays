@@ -57,7 +57,7 @@ header {
   max-width: 700px;
   max-height: 380px;
   margin: 0 auto;
-  z-index: 10;
+  z-index: -10;
 }
 .myvideo {
   box-shadow: 0px 0px 35px 16px rgba(255, 199, 228, 0.51);
