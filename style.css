@@ -42,10 +42,10 @@ header {
   margin: auto;
   border: 1px solid white;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .video {
     width: 90%;
-    height: 300px;
+    height: 200px;
   }
 }
 #myvideo {
