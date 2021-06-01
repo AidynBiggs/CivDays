@@ -57,15 +57,17 @@ header {
   max-width: 700px;
   max-height: 380px;
   margin: 0 auto;
-  z-index: -10;
+  z-index: 9999;
 }
 .myvideo {
+  z-index: 9999;
   box-shadow: 0px 0px 35px 16px rgba(255, 199, 228, 0.51);
 }
 @media screen and (max-width: 600px) {
   .video {
     width: 91%;
     margin: auto;
+    z-index: 9999;
   }
   .links a {
     font-size: 40px;
